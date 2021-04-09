@@ -1,0 +1,300 @@
+/* Farbe: #000, #fff */
+
+
+/* MAIN ID=HERO */
+
+body{
+    margin: 0;
+}
+main nav{
+    background-color: white;
+    padding: 5px;
+}
+
+main nav ul{
+    list-style: none;
+    text-align: right;
+}
+
+main nav ul li a{
+text-decoration: none;
+color: black;
+}
+
+main nav ul li{
+    display: inline-block;
+    font-family:'Special Elite', cursive;
+    margin-right: 5%;
+}
+
+
+#hero{
+    background: url(../img/bg.jpeg) center/cover, no-repeat; height: 95vh;
+    font-family:'Special Elite', cursive;
+    color: white;
+}
+
+#hero p, h1{
+    display: inline-block;
+}
+
+#hero h1{
+    margin: 30% 0 0 0;
+    font-size: 6rem;
+}
+
+#hero p{
+    color: black;
+    font-size: 8rem;
+    background-color: white;
+    border-radius: 50%;
+    padding: 40px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    transform: rotate(-30deg);
+}
+
+
+
+/* DIV ID=hello */
+
+#hello{
+    background: url(../img/beans_icon.png) center/cover;
+    margin: 0;
+    height: 50vh;
+    
+}
+
+#hello img{
+    width: 100vw;
+    background-color: white;
+    height: 50vh; 
+}
+
+#hello p{
+    font-family:'Special Elite', cursive;
+    width: 50%;
+    margin-left: 10%;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    
+    
+}
+
+#hello h1{
+    font-family:'Exo', sans-serif;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 3em;
+    margin-bottom: 0;
+
+    
+}
+
+/* CLASS=flowers */
+.flowers{
+    background: url(../img/bridge_1.jpg) center/cover no-repeat fixed;
+    width: 100vw;
+    height: 50vh;
+}
+
+
+/* CLASS menu */
+
+.menu{
+    background:url(../img/cake_icon.png) center/cover no-repeat;
+    height: 100vh;
+    text-align: center;
+    background-size: 70%;
+    background-position: left;
+}
+    
+
+
+.menu h1{
+    font-size: 3em;
+    font-family:'Exo', sans-serif;
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+
+.menu img{
+    width: 50px;
+
+}
+
+.menu p{
+    font-family: 'Special Elite', cursive;
+    word-spacing: 6px;
+    margin-top: 0;
+}
+
+.menu h2{
+    font-family: 'Exo', sans-serif; 
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.menu h3{
+    font-family: 'Exo', sans-serif; 
+    margin-top: 0;
+}
+
+.menu article{
+    border: 1px solid black;
+    width: 30%;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+/* CLASS food */
+
+.food{
+    background: url(../img/bridge_2.jpg) center/cover no-repeat fixed;
+    width: 100vw;
+    height: 50vh;
+    margin-top: 0;
+}
+
+/* CLASS ourstory */
+
+.ourstory h2{
+    font-family: 'Exo', sans-serif;
+    font-size: 2em;
+}
+
+.ourstory p{
+    font-family: 'Special Elite', cursive;
+    word-spacing: 6px;
+}
+
+.ourstory article{
+width: 25%;
+display: inline-block;
+margin: 5% 35px 0 30%;
+}
+
+.ourstory img{
+    width: 15%;
+}
+
+/* CLASS cake */
+
+.cake{
+    background: url(../img/bridge_3.jpg) center/cover no-repeat fixed;
+    width: 100vw;
+    height: 50vh;
+    margin-top: 10%;
+}
+
+/* CLASS catering */
+
+.catering{
+    background: url(../img/pie_icon.png) center/cover no-repeat;
+    padding-bottom: 7%;
+    background-size: 40%;
+    background-position: right;
+}
+
+.catering img{
+    width: 25%;
+    margin: 10% 40px 0 20%;
+}
+
+.catering article{
+    width: 25%;
+    display: inline-block;
+}
+
+.catering article h2{
+    font-family: 'Exo', sans-serif;
+    font-size: 2em;
+    
+}
+
+.catering article p{
+    font-family: 'Special Elite', cursive;
+    word-spacing: 6px;
+}
+
+.catering a{
+    text-decoration: none;
+    color: black;
+}
+
+.border{
+    border: 1px solid black;
+    padding: 10px;
+    width: 35%;
+}
+
+
+/* CLASS cerials */
+
+.cerials{
+    background: url(../img/bridge_4.jpeg) center/cover no-repeat fixed;
+    width: 100vw;
+    height: 50vh;
+}
+
+/* CLASS last */
+
+.last{
+    background: url(../img/muffin_icon.png) center/cover no-repeat;
+    padding-bottom: 7%;
+    background-size: 30%;
+    background-position: left;
+}
+
+.last img{
+    width: 25%;
+    margin: 10% 40px 0 20%;
+}
+
+.last article{
+    width: 25%;
+    display: inline-block;
+}
+
+.last article h2{
+    font-family: 'Exo', sans-serif;
+    font-size: 2em;
+    
+}
+
+.last article p{
+    font-family: 'Special Elite', cursive;
+    word-spacing: 6px;
+}
+
+
+/* CLASS footer */
+
+.footer{
+    background-color: black;
+    text-align: center;
+}
+
+.footer p{
+    color: white;
+    font-family: 'Special Elite', cursive;
+    margin: 0 0;
+}
+
+.footer h3{
+    color:white;
+    font-family: 'Exo', sans-serif;
+    margin-bottom: 0;
+    padding-top: 2%;
+}
+
+.footer img{
+    width: 3%;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer img:last-of-type{
+    width: 10%;
+    padding-bottom: 2%;
+}
